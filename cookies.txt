@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+wiki.elexis.info	TRUE	/	FALSE	1999999999	elexis_wiki_session	lb5oo8cr9oomu7h1t7sg7ueh022oqcna
+

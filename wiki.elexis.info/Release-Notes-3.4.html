@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+
+<!-- Mirrored from wiki.elexis.info/Release-Notes-3.4.0 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 11:49:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="UTF-8"/>
+<title>Release-Notes-3.4.0 - Elexis-Wiki</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Release-Notes-3.4.0","wgTitle":"Release-Notes-3.4.0","wgCurRevisionId":58530,"wgRevisionId":58530,"wgArticleId":20606,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"de-ch","wgPageContentModel":"wikitext","wgSeparatorTransformTable":[",\t.","'\t,"],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"wgMonthNamesShort":["","Jan.","Feb.","Mär.","Apr.","Mai","Jun.","Juli","Aug.","Sep.","Okt.","Nov.","Dez."],"wgRelevantPageName":"Release-Notes-3.4.0","wgRelevantArticleId":20606,"wgRequestId":"97f40aab80209658c72072bc","wgCSPNonce":false,"wgIsProbablyEditable":false,"wgRelevantPageIsProbablyEditable":false,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true});mw.loader.state({"site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.toc.styles":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready"});mw.loader.implement("user.options@00yl6bz",function($,jQuery,require,module){/*@nomin*/mw.user.options.set({"variant":"de-ch"});
+});mw.loader.implement("user.tokens@0tffind",function($,jQuery,require,module){/*@nomin*/mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+});RLPAGEMODULES=["site","mediawiki.page.startup","mediawiki.user","mediawiki.page.ready","mediawiki.toc","mediawiki.searchSuggest","mmv.head","mmv.bootstrap.autostart","skins.vector.js"];mw.loader.load(RLPAGEMODULES);});</script>
+<link rel="stylesheet" href="load6cab.css?debug=false&amp;lang=en&amp;modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.toc.styles%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="load2c8d.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<meta name="generator" content="MediaWiki 1.32.0"/>
+<link rel="shortcut icon" href="config/favicon.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="opensearch_desc.php" title="Elexis-Wiki (de-ch)"/>
+<link rel="EditURI" type="application/rsd+xml" href="api-result251f.xml?action=rsd"/>
+<link rel="alternate" type="application/atom+xml" title="Elexis-Wiki Atom feed" href="feeda295.xml?title=Spezial:Letzte_%C3%84nderungen&amp;feed=atom"/>
+<!--[if lt IE 9]><script src="/load.php?debug=false&amp;lang=de-ch&amp;modules=html5shiv&amp;only=scripts&amp;skin=vector&amp;sync=1"></script><![endif]-->
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Release-Notes-3_4_0 rootpage-Release-Notes-3_4_0 skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+			<div class="mw-indicators mw-body-content">
+</div>
+<h1 id="firstHeading" class="firstHeading" lang="de-CH">Release-Notes-3.4.0</h1>			<div id="bodyContent" class="mw-body-content">
+				<div id="siteSub" class="noprint">From Elexis-Wiki</div>				<div id="contentSub" lang="en" dir="ltr"></div>
+				<div id="jump-to-nav"></div>				<a class="mw-jump-link" href="#mw-head">Jump to navigation</a>
+				<a class="mw-jump-link" href="#p-search">Jump to search</a>
+				<div id="mw-content-text" lang="de-CH" dir="ltr" class="mw-content-ltr"><div class="mw-parser-output"><div id="toc" class="toc"><input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none" /><div class="toctitle" lang="en" dir="ltr"><h2>Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Release_3.4.0_-_25.12.2017"><span class="tocnumber">1</span> <span class="toctext"><i>Release 3.4.0 - 25.12.2017</i></span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Upgrade"><span class="tocnumber">1.1</span> <span class="toctext">Upgrade</span></a>
+<ul>
+<li class="toclevel-3 tocsection-3"><a href="#Voraussetzungen"><span class="tocnumber">1.1.1</span> <span class="toctext">Voraussetzungen</span></a></li>
+<li class="toclevel-3 tocsection-4"><a href="#Elexis_OpenSource_3.4.0_neu_installieren"><span class="tocnumber">1.1.2</span> <span class="toctext">Elexis OpenSource 3.4.0 neu installieren</span></a></li>
+<li class="toclevel-3 tocsection-5"><a href="#Elexis_Kern_und_Features_via_neue_P2-Seite_aktualisieren"><span class="tocnumber">1.1.3</span> <span class="toctext">Elexis Kern und Features via neue P2-Seite aktualisieren</span></a></li>
+<li class="toclevel-3 tocsection-6"><a href="#Upgrade_Medelexis-Kunden"><span class="tocnumber">1.1.4</span> <span class="toctext">Upgrade Medelexis-Kunden</span></a></li>
+<li class="toclevel-3 tocsection-7"><a href="#Arbeiten_nach_dem_Upgrade"><span class="tocnumber">1.1.5</span> <span class="toctext">Arbeiten nach dem Upgrade</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-8"><a href="#Bekannte_Probleme"><span class="tocnumber">1.2</span> <span class="toctext">Bekannte Probleme</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Gr.C3.B6ssere_Umbauten.2FNeuigkeiten"><span class="tocnumber">1.3</span> <span class="toctext">Grössere Umbauten/Neuigkeiten</span></a>
+<ul>
+<li class="toclevel-3 tocsection-10"><a href="#Elexis-Server"><span class="tocnumber">1.3.1</span> <span class="toctext">Elexis-Server</span></a></li>
+</ul>
+</li>
+<li class="toclevel-2 tocsection-11"><a href="#Kleinere_.C3.84nderungen.2C_Neuheiten"><span class="tocnumber">1.4</span> <span class="toctext">Kleinere Änderungen, Neuheiten</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Bug-Fixes"><span class="tocnumber">1.5</span> <span class="toctext">Bug-Fixes</span></a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+<h1><span class="mw-headline" id="Release_3.4.0_-_25.12.2017"><i>Release 3.4.0 - 25.12.2017</i></span></h1>
+<p>In der neuen Version wurden Fehler seit Elexis 3.1.8 und es gibt diverse neue Feature behoben.
+</p><p>In der untenstehenden Liste beziehen sich die Zahlen in Klammern auf das nicht öffentliche Redmine-Ticket-System der Medelexis AG.
+</p><p>Die Benutzersicht für Elexis OpenSource-Anwender für den Update-Prozess wurde von Gerry Weirich unter <a rel="nofollow" class="external free" href="http://www.elexis.ch/ungrad/reference/update_34/">http://www.elexis.ch/ungrad/reference/update_34/</a> ebenfalls dokumentiert. Das meiste finden sie hier unten auch.
+</p><p>Teile, welche nur Medelexis-Kunden betreffen, sollten in dieser Beschreibung immer wie folgt markiert sein: <i>Proprietär: Exklusiv für Medelexis Kunden</i>
+</p>
+<h2><span class="mw-headline" id="Upgrade">Upgrade</span></h2>
+<ul><li>Beachten Sie bitte die unten beschriebenen Voraussetzungen</li>
+<li>Wir empfehlen alles zuerst auf einer Test-Datenbank durchzuspielen und zu testen. Sie könne dafür z.B. einen <a href="Mysql_docker_container.html" title="Mysql docker container">  MySQL Docker Container</a> gebrauchen</li>
+<li>Falls Sie eine MySQL-Datenbank unter einem Betriebsystem verwenden, dessen Dateiname case-sensitiv ist (MacOSX/Linux), müssen Sie am geeigeneten Ort ein my.cnf mit dem folgenden Inhalt erstellen</li></ul>
+<pre>  [mysqld]
+  lower_case_table_names=1
+</pre>
+<p>erstellen
+</p>
+<ul><li>Danach müssen wie aus einer der 3 Möglichkeinte Elexis auf 3.4 hochziehen
+<ul><li>Automatischer Upgrade (nur für Medelexis-Kunden)</li>
+<li>Elexis OpenSource 3.4.0 neu installieren</li>
+<li>Elexis Kern und Features via neue P2-Seite aktualisieren</li></ul></li></ul>
+<h3><span class="mw-headline" id="Voraussetzungen">Voraussetzungen</span></h3>
+<ul><li>Elexis 3.x läuft nicht mit Java 9. Wahrscheinlich mit Java 1.7. Wir empfehlen Java 8 (OpenJDK oder Sun/Oracle).</li>
+<li>Vorgängig muss eine <b>Elexis</b> Version <b>3.1.x </b> installiert sein. Upgrade von 2.1.x oder 3.0 läuft wegen in 3.2 neu erstellten User_/Right_-Tabellen.</li>
+<li>Der <b>MySQL-Server</b> muss mindestens auf der <b>Version 5.7</b> hochgezogen sein (Nur damit werden die neu gebrauchten SQL-Views unterstützt). Gemäss <a rel="nofollow" class="external free" href="https://dev.mysql.com/doc/refman/5.7/en/upgrading.html">https://dev.mysql.com/doc/refman/5.7/en/upgrading.html</a> muss man von 5.5 in zwei Schritten (via 5.6) auf 5.7 upgraden. jede andere Methode als mysqldump -&gt; -&gt; restore ist nicht praktikabel, weil bei MySQL (unter Windows...) zwar Upgrades mit gleicher ersten Nachkommastelle direkt vom Installer unterstützt werden - aber solche mit wechselnder erster Nachkommastelle nicht mehr.</li></ul>
+<h3><span class="mw-headline" id="Elexis_OpenSource_3.4.0_neu_installieren">Elexis OpenSource 3.4.0 neu installieren</span></h3>
+<p>Damit alle gebrauchten Features installier sind, bevor mit dem Upgrade der Datenbank-Tabellen begonnen wird, empfehlen wir wärmstens folgendes Vorgehen
+</p>
+<ul><li>DemoDB (mit Administrator) gemäss <a href="Installation_Elexis_3-3.html" title="Installation Elexis 3.0 demoDB">Installation_Elexis_3.0_demoDB</a> installieren</li>
+<li>Elexis 3.4 Kern für Ihr Betriebssystem von [<a rel="nofollow" class="external text" href="http://download.elexis.info/elexis/3.4/products/">Download-Seite</a> herunterladen und entpacken</li>
+<li>Alle gewünschten Features (zumindest die früher gebrauchten) via Menü "Hilfe..Neue Software installieren" installieren, jeweils nur eine P2-Seite auswählen</li>
+<li>DemoDB löschen</li>
+<li>Altes $HOME/elexis/elexis-3.log löschen</li></ul>
+<h3><span class="mw-headline" id="Elexis_Kern_und_Features_via_neue_P2-Seite_aktualisieren">Elexis Kern und Features via neue P2-Seite aktualisieren</span></h3>
+<ul><li>Elexis auf 3.1.9 aktualisieren über "Hilfe..Auf Updates überprüfen"</li>
+<li>Das Feature "Perspective" (falls vorhanden) deinstallieren via Hilfe..über Elexis".</li>
+<li>Das Feature "Iatrix KG mit persönlicher Anammnese.." (falls vorhanden) deinstallieren via Hilfe..über Elexis".
+<ul><li>Knopf "Installation Detail" drücken</li>
+<li>Im Reiter "Installierte Software" den Punkt "Perspektiven" anwählen und auf Knopf "Uninstall" drücken. Mit "Finish" bestätigen.</li>
+<li>Neu starten</li></ul></li>
+<li>Menü "Hilfe..Neue Software installieren" anwählen. Link "Work with the list of select software site" wählen, dort
+<ul><li>Eintrag "Elexis 3 Core release" mit "Edit" bearbeiten, Name auf "Elexis 3 Core 3.4" und Location auf "<a rel="nofollow" class="external free" href="http://download.elexis.info/elexis/3.4/p2/elexis-3-core">http://download.elexis.info/elexis/3.4/p2/elexis-3-core</a>" setzen. Mit "OK" bestätigen</li>
+<li>Eintrag "Elexis 3 Base release" mit "Edit" bearbeiten, Name auf "Elexis 3 Base 3.4" und Location auf "<a rel="nofollow" class="external free" href="http://download.elexis.info/elexis/3.4/p2/elexis-3-base">http://download.elexis.info/elexis/3.4/p2/elexis-3-base</a>" setzen. Mit "OK" bestätigen</li>
+<li>Auf "Cancel" drücken</li></ul></li>
+<li>Elexis wird jetzt über "Hilfe..Auf Updates überprüfen" auf Elexis auf 3.4 hochgezogen werden</li></ul>
+<h3><span class="mw-headline" id="Upgrade_Medelexis-Kunden">Upgrade Medelexis-Kunden</span></h3>
+<p>Der Upgrade wird von Medelexis mit Praxis abgesprochen und sollte danach ohne manuelle Anpassungen bei jeder Arbeitsstation beim nächsten Herunterfahren erfolgen. Bei Prolemen bitte bei Medelexis AG [Kontakt:<a rel="nofollow" class="external free" href="https://medelexis.ch/?page_id=1061">https://medelexis.ch/?page_id=1061</a>] melen
+</p>
+<h3><span class="mw-headline" id="Arbeiten_nach_dem_Upgrade">Arbeiten nach dem Upgrade</span></h3>
+<p>Nach dem Upgrade müssen
+</p>
+<ul><li>Medelexis-Kunden via "Datei..Stamdaten aktualisieren", den Artikelstamm und Tarmed 1.08 und 1.09 installieren. Das geht lange (Stunden?).</li>
+<li>OpenSource Anwender müssen
+<ul><li>Artikelstamm Version 5 von <a rel="nofollow" class="external text" href="https://artikelstamm.elexis.info/">http://artikelstamm.elexis.info</a> runterladen und importieren</li>
+<li>Tarmed <b><a rel="nofollow" class="external text" href="https://www.fmh.ch/files/zip1/TARMED_Datenbank_01.08.00_BR_UVG_IVG_MVG.zip">1.0.8</a> und <a rel="nofollow" class="external text" href="https://www.fmh.ch/files/zip1/TARMED_Datenbank_01.09.00_BR_KVG.zip">1.0.9</a></b>  runterladen unde installieren</li></ul></li>
+<li>Wechsel auf die neue Tabellenstruktur erzwingen mit
+<ul><li>Views "Artikel" öffnen, alle Tabs anklicken</li>
+<li>Views "Leistungen" öffnen, alle Tabs anklicken</li>
+<li>Views "Lager", "Inbox", "Omnivore" öffnen</li>
+<li>Patientenperspektive öffnen, einen Patienten auswählen und letzte Konsultation öffnen</li></ul></li>
+<li>Gegebenfalls Blöcke angepasst werden, falls Tarmed/Artikel nicht mehr korrekt zugeordnet werden können. Falls dies der Fall ist, wird bei der Ausführung des Makros darauf hingewiesen. Die Landartpraxis Sevelen hat eine Liste von Blöcken für Tarmed 1.09 erstellt. Die Anleitung zum Installeiren dazu finden Sie unter <a href="Tarmed_1.html" title="Tarmed 1.09 Blöcke">Tarmed_1.09_Blöcke</a></li>
+<li>Neues $HOME/elexis/elexis-3.log unter einem sprechenden Namen abspeichern, und damit es bei Problemen mit dem Upgrade analysiert werden kann</li></ul>
+<h2><span class="mw-headline" id="Bekannte_Probleme">Bekannte Probleme</span></h2>
+<ul><li>Siehe auch <a href="Release-3.4.html" title="Release-3.4.0 Erste Hilfe">Release-3.4.0_Erste_Hilfe</a></li>
+<li>Medidata refüsiert mit Rechnungen, welche vom OpenSource Mediport Plugin erstellt wurden. Vom proprietären Medidata Plugin der Medelexis AG ist Niklaus Giger dieses Problem nicht bekannt.</li>
+<li>Unter Linux läuft der Aufruf von Hilfe..Handbuch nicht</li>
+<li>Die Tabs in den Artikeln für BAG/SL, Medikament, Medical dürfen nicht mehr verwendet werden. Sie werden nur gebraucht, um alte Rechnungen (vor Elexis 3.0) korrekt anzeigen zu können</li>
+<li>Eigenartikel haben manchmal nach dem upgrade "null" im Namen und können nicht mehr richtig gebraucht werden</li>
+<li>In der View "Patient Detail" sind unter Fixmedikation die Verweise zum Hinzufügen, Liste, Rezept immer deaktviert. Alternativ muss man die View Fixmedikation benutzen.</li>
+<li>Nach dem Umstieg auf Elexis 3.4 gibt es bei diversen View grössere Wartezeiten, da Elexis im Hintergrund Daten in die neue Strukturen überführen muss. Das gleiche gilt, wenn man zuerst die Daten (z.B. Laborberichte, Abrechnungen) eines Patienten zum ersten Mal unter Elexis 3.4 anschaut</li>
+<li>Elexis OpenSource Anwender: Wenn man beim Software installieren, die P2 Seite für "Elexis 3 Base" und "Elexis GPL" anwählt und alle Features aufs Mal installieren will, gibt es Probleme. Bitte dies in zwei Schritten (geht auch ohne Restart) erledigen.</li></ul>
+<h2><span id="Grössere_Umbauten/Neuigkeiten"></span><span class="mw-headline" id="Gr.C3.B6ssere_Umbauten.2FNeuigkeiten">Grössere Umbauten/Neuigkeiten</span></h2>
+<ul><li>Die <b>View Konsultationen</b> wurde nach <b>Verlauf</b> umbenannt</li>
+<li>Unterstützung für die neue, ab 1.1.2018 gültige Tarmed-Version (<b>TODO</b>: Neue Features dokumentieren und hier verlinken)</li>
+<li>Befunde (<b>TODO</b>: Neue Features dokumentieren und hier verlinken)</li>
+<li>Impfdossier Siehe <a href="images/0/0e/Anleitung_Impdossier.pdf" class="internal" title="Anleitung Impdossier.pdf">Anleitung für den Gebrauch des Impdossiers</a></li>
+<li>Outbox/Inbox (<b>TODO</b>: Neue Features dokumentieren und hier verlinken)</li>
+<li>Import/Export von Perspektiven wird neu im Elexis-Core abgehandelt und ersetzt das alte de.fhdo.Perspective Plugin. Medelexis Kunde erhalten zusätzlich die Möglichkeit mittels der View "Perspektiven Management" (Ctrl-M), Perspektiven umzubennen und abzuspeichern.</li>
+<li>Die View Pendenzen wurde überarbeitet. Neu ist sie sortiert nach Aktueller Patient, Allgemein, Patientenbezogen und innerhalb je nach Priorität und Datum. Siehe <a href="Pendenzen_im_Elexis.html#Ab_Elexisversion_3.4" title="Pendenzen im Elexis">Pendenzen_im_Elexis#Ab_Elexisversion_3.4</a></li>
+<li>Neues Dokumente Management (TODO: ) ermöglicht ua. Empfang und Versand von XDM-Files <a href="images/3/38/XDOM_Datenaustauch.pdf" class="internal" title="XDOM Datenaustauch.pdf">Anleitung</a></li>
+<li>Neu sind Mehrfachlager möglich</li>
+<li>Neu wird der eMediplan (<a rel="nofollow" class="external free" href="http://emediplan.ch/de/home">http://emediplan.ch/de/home</a>) unterstützt, welche ein Medikationsplan für den Patienten ist, mit dem Ziel einer einheitlichen, übersichtlichen und vollständigen Darstellung.</li>
+<li>Artikelstamm: Neu muss der Artikelstamm in der Version 5 verwendet werden, welcher zusätzliche Informationen zur Substanz, ATC, Hersteller, etc. enthält.</li>
+<li>Nicht sichtbar für den Anwender wurde die gebrauchte Eclipse Version von 3.8 auf 4.6 hochgezogen. Damit kann Elexis besser und mit weniger Fehlern auf die aktuellen Versionen der Betriebssysteme verwendet werden.</li></ul>
+<h3><span class="mw-headline" id="Elexis-Server">Elexis-Server</span></h3>
+<p>Der neu entwickelte Elexis Server ist Teil der neuen technischen Grundlagen um Elexis für die Zukunft fit zu halten. Er erlaubt es, Zugriffe auf mehrfach gebrauchte Ressourcen wie Konsultationen, Agenda-Termine sicher zu synchronisieren. Die FHIR-Schnittstelle erlaubt es, Web- (und andere) Applikationen einen sicheren Zugriff auf einzelnen Komponenten von Elexis zu geben.
+</p><p>Er wurde entwickelt, weil Medix in ihren neuen Gruppenpraxen Rockethealth einsetzt. Rockethealth ist eine auf einem Tablet laufende Applikation, um Konsultationen strukturiert zu erfassen.
+</p><p>Dieselbe FHIR-Schnitstelle wird es Elexis erlauben, mit anderen Schweizer eHealth-Applikationen Daten austauschen, z.B. Impdaten, Konsultationen bei Vertretungen, Überweisunen an Spezialisten.
+</p><p>Der Einsatz eines Elexis-Servers erfordert einen gewissen, noch nicht gut dokumentierten, Einrichtungsaufwand. Wer bisher ohne Elexis Server ausgekommen ist, hat (bis jetzt) keinen zwingenden Grund einen Elexis-Server zu gebrauchen. Sein Einsatz kann jedoch sinnvoll sein, wenn bei einer Praxis gehäuft Probleme vorkommen, weil parallel Personen auf gemeinsame Daten zugreifen, oder man den Elexis-Server dazu verwenden will, im Hintergrund Laborwerte einzulesen, sobald diese verfügbar sind.
+</p><p>Technische Details dazu findet man unter:
+</p>
+<ul><li><a rel="nofollow" class="external free" href="https://github.com/elexis/elexis-server/blob/master/products/es.core.product.runtime/Readme.md">https://github.com/elexis/elexis-server/blob/master/products/es.core.product.runtime/Readme.md</a></li>
+<li><a rel="nofollow" class="external free" href="https://github.com/elexis/elexis-server/blob/master/README.md">https://github.com/elexis/elexis-server/blob/master/README.md</a></li>
+<li><a rel="nofollow" class="external free" href="https://www.e-health-suisse.ch/technik-semantik/technische-interoperabilitaet/ehealth-connector.html">https://www.e-health-suisse.ch/technik-semantik/technische-interoperabilitaet/ehealth-connector.html</a></li>
+<li><a rel="nofollow" class="external free" href="http://wiki.hl7.org/index.php?title=FHIR">http://wiki.hl7.org/index.php?title=FHIR</a></li></ul>
+<h2><span id="Kleinere_Änderungen,_Neuheiten"></span><span class="mw-headline" id="Kleinere_.C3.84nderungen.2C_Neuheiten">Kleinere Änderungen, Neuheiten</span></h2>
+<h2><span class="mw-headline" id="Bug-Fixes">Bug-Fixes</span></h2>
+<p>Da mehr als Tausend commits gemacht wurden und fast 500 Redmine-Tickets abgearbeitet wurden, findet man hier nur die Liste der für die Anwender im Endeffekt sichtbaren Anpassungen. Die Zusammenfassung aller gemachten Commits findet man unter Changelog für <a rel="nofollow" class="external text" href="https://github.com/elexis/elexis-3-core/blob/3.4/Changelog">Elexis-Kern</a> und  <a rel="nofollow" class="external text" href="https://github.com/elexis/elexis-3-base/blob/3.4/Changelog">Elexis-Basis</a>
+</p>
+<ul><li><b>(3409)</b> Konti für manuelle Buchungen (Zahlungen) einführen / Medelexis FIBU: Zahlungsjou</li>
+<li><b>(4081)</b> Laborblatt reagiert nicht mehr auf "visible/Activate" Nachrichten (OS X El Capit</li>
+<li><b>(4232)</b> Realisation Elexis-Server OpenSource</li>
+<li><b>(4261)</b> Rocket Health (Helmedica AG)</li>
+<li><b>(4338)</b> Medicosearch Schnittstelle V2</li>
+<li><b>(4347)</b> Konsultation / Konsultationen View Überarbeitung Revision</li>
+<li><b>(4397)</b> table userconfig sowie VK_Preise hat keine ID</li>
+<li><b>(4405)</b> Aufsplittung Artikelstamm in Produkte und Artikel</li>
+<li><b>(4419)</b> Master branch elexis-3-core auf 3.2.0 aktualisieren</li>
+<li><b>(4423)</b> NPE beim Öffnen des Artikelstamms import</li>
+<li><b>(4477)</b> Ausarbeitung formale Bezugskontakte</li>
+<li><b>(4496)</b> Konsultationslatenz</li>
+<li><b>(4499)</b> Snapshot Elexis kann nicht mehr geschlossen werden =&gt; NPE</li>
+<li><b>(4511)</b> QF fixen</li>
+<li><b>(4512)</b> Kontakte-Eigentschaften sind nicht Lock-Safe</li>
+<li><b>(4519)</b> Lösung für bisher nicht unterstützte Termin Attribute überlegen</li>
+<li><b>(4520)</b> Latenz beim Erstellen der Patienten-Nummer</li>
+<li><b>(4523)</b> com.sun.jersey (jersey 1 blueevidence, tel.search)</li>
+<li><b>(4524)</b> Lock-Messages verbessern</li>
+<li><b>(4526)</b> Artikelstamm v4 um Substanz erweitern</li>
+<li><b>(4527)</b> Fall löschen ist nicht implementiert?</li>
+<li><b>(4529)</b> Mediliste zeigt Artikel die End-Datum in Zukunft haben nicht an</li>
+<li><b>(4531)</b> Prescription DateFrom DateUntil auf Zeitstempel umstellen</li>
+<li><b>(4544)</b> Latenz und Namensproblem bei Fall bzw. BillingContext</li>
+<li><b>(4554)</b> Termin Dialog muss bei bearbeiten voll locken</li>
+<li><b>(4556)</b> FixMediDisplay, Verschreibung editieren benötigt Flag für Reservemedikation</li>
+<li><b>(4561)</b> Umstellung auf NICHT Blocking bzw. problem mit blocking</li>
+<li><b>(4563)</b> Lock-Status Client und Server nicht synchron</li>
+<li><b>(4564)</b> Implementation ReleaseLocks LockStatusDialog</li>
+<li><b>(4574)</b> Signatur-Änderung einer Reserve-Medikation überführt diese in eine Fixmedikation</li>
+<li><b>(4576)</b> Implementation Diagnosen Übernahme Konsultation</li>
+<li><b>(4584)</b> Latenz Patientendetailblatt</li>
+<li><b>(4585)</b> Leistungen einer Konsultation sollen auch für gesp. Konsultation veränderbar sei</li>
+<li><b>(4587)</b> Synchronisation von Dokumenten (docx nach Briefe both directions)</li>
+<li><b>(4589)</b> Fehlendes Locking Omnivore verhindert sync der files</li>
+<li><b>(4594)</b> Multiple Lockings bei EinzelTermin</li>
+<li><b>(4599)</b> Möglichkeit End-Datum bei Verschreibung zu setzen</li>
+<li><b>(4600)</b> Eigenartikel und Eigenleistungen muss möglichkeit zu custom id definition bieten</li>
+<li><b>(4602)</b> Alte FixMediView temporär deaktiveren</li>
+<li><b>(4606)</b> Patient kann erzeugt werden obwohl kein lock acquiriert werden kann</li>
+<li><b>(4618)</b> Briefauswahl: Kann Brief löschen welcher mir nicht gehört</li>
+<li><b>(4620)</b> Neuerstellter Brief sagt Lock kann nicht verändert werden</li>
+<li><b>(4621)</b> Rezept kann nicht mehr gedruckt werden (Ident: DZM018-Büro1OG)</li>
+<li><b>(4623)</b> Eigenleistungen add direkt auf Eigenleistungen Detail View</li>
+<li><b>(4658)</b> HL7 Importer legt Parameter mehrfach an</li>
+<li><b>(4659)</b> Laborresultate als Kommentar werden nicht synchronisiert</li>
+<li><b>(4661)</b> In Kons-Details kann die nicht Kons gelöscht werden</li>
+<li><b>(4664)</b> Laborparameter werden trotz Mappingeintrag mehrfach angelegt</li>
+<li><b>(4668)</b> MediX Covercard einlesen geht nicht (Invalid thread access)</li>
+<li><b>(4676)</b> ch.elexis.omnivoredirect (Missing locking for TWAIN direct import of scanner)</li>
+<li><b>(4682)</b> Multple dangling locks auf Stationen</li>
+<li><b>(4698)</b> Data truncation: Data too long for column 'note' at row 1  (STORE_FILE_1008932_0</li>
+<li><b>(4699)</b> PDF Export der KG  <i>Proprietär: Exklusiv für Medelexis Kunden</i></li>
+<li><b>(4701)</b> Formel Laborwerte stimmen nicht (Ident: HP Thomas Wolber)</li>
+<li><b>(4711)</b> In Kons-Details kann das Datum nicht geändert werden</li>
+<li><b>(4719)</b> In der Konsultation werden Links auf Briefe nicht mehr dargestellt.</li>
+<li><b>(4723)</b> eBox Elexis Projekt mit P. Wiget (nicht WebElexis)</li>
+<li><b>(4724)</b> Umbruch von breaks in Laborresultaten</li>
+<li><b>(4727)</b> Personalienblatt Anpassungen &amp; statistische Auswertungen <i>Proprietär: Exklusiv für Medelexis Kunden</i></li>
+<li><b>(4733)</b> PatientDetailBlatt beim ersten Öffnen ohne Patientenanzeige</li>
+<li><b>(4738)</b> Bidirektionale Synchronisation von eigenen Artikeln/praxiseigenen Medikamenten</li>
+<li><b>(4741)</b> Agendaeinstellungen werden nicht gespeichert (GlobalCfg wird wechselseitig übers</li>
+<li><b>(4742)</b> RH Konsultationen transferieren KVG =&gt; UVG (Fall für Kons ändern)</li>
+<li><b>(4753)</b> Übertriebene Präzision bei Labor-Referenzwerten und "null" als Notiztext machen</li>
+<li><b>(4754)</b> Formel-basierte werden nicht an rockethealth übertragen</li>
+<li><b>(4755)</b> Beobachtungszeitpunkt der Laborwerte bei Import fehlerhaft</li>
+<li><b>(4756)</b> Neuen Laborparameter erzeugt Objekt trotz fehlerhaft</li>
+<li><b>(4768)</b> E-Mail Komponente in Elexis, für Senden &amp; Empfang</li>
+<li><b>(4770)</b> LaborWert Beobachtungszeitpunkt ändern soll auch LabOrder berücksichtigen</li>
+<li><b>(4791)</b> Hänger (Ident: Aerztehuus: Zimmer1)</li>
+<li><b>(4810)</b> Diagnosen verschwunden (Ident: Herzpraxis TW)</li>
+<li><b>(4827)</b> Medicosearch Test-Enviroment</li>
+<li><b>(4833)</b> Anpassung FIRE-Schnittstelle</li>
+<li><b>(4835)</b> Medicosearch Anpassungen Beta</li>
+<li><b>(4836)</b> Überarbeitung generierung Artikelstamm v4</li>
+<li><b>(4838)</b> New User: set random pass if null, check for deleted existing pw, do not really</li>
+<li><b>(4840)</b> Verbindung Task &lt;-&gt; Reminder</li>
+<li><b>(4880)</b> Roche Laborblatt lock beim Bearbeiten von Werten nicht</li>
+<li><b>(4896)</b> Possible NPE in org.iatrix.views.JournalView:367</li>
+<li><b>(4913)</b> Umsetzung Perspektiven Import und Export, inkl. Import von legacy Perspektiven</li>
+<li><b>(4917)</b> Target Umstellung (Update) Eclipse 4 Neon SR3</li>
+<li><b>(4923)</b> Überarbeitung Pendenzen</li>
+<li><b>(4926)</b> Standardberechtigung für Agenda bei 3.1</li>
+<li><b>(4934)</b> Auswertungen MediX</li>
+<li><b>(4942)</b> Zahl ändern von Leistungen überprüft nicht Gültigkeit</li>
+<li><b>(4947)</b> RH Artikel werden nicht auf MwSt geprüft</li>
+<li><b>(4954)</b> Elexis Frontend Modifikationen für Eigenartikel v3.2</li>
+<li><b>(4961)</b> Tarmed Pos 00.0010 nicht kombinierbar mit 12.0020</li>
+<li><b>(4973)</b> Terminkollision</li>
+<li><b>(4991)</b> HL7 Laborimport kann Mikrobiologische Befunde nicht einlesen MEDIX</li>
+<li><b>(5004)</b> Pos. 09.0510 Tympanometrie</li>
+<li><b>(5009)</b> Makros - Verhalten bei Fehler (Regression gegenüber 2.1.7.1)</li>
+<li><b>(5042)</b> Trennung Pflicht- / Nichtpflichtleistungen (Ident: DZM018-Büro1OG)</li>
+<li><b>(5054)</b> Inbox - Anzeige nur beim angemeldeten Mandanten</li>
+<li><b>(5056)</b> Zusammenführen Preferences omnivore und omnivore direct</li>
+<li><b>(5058)</b> Tarmedposition 00.0010 Sitzung 1 &amp; 2</li>
+<li><b>(5059)</b> Neues Befunde Feature Implementierung</li>
+<li><b>(5062)</b> IRechnungsdetail contributions durch IViewContribution ersetzen</li>
+<li><b>(5064)</b> Eigenartikel neu NPE beim setzen des Lieferanten</li>
+<li><b>(5070)</b> Neues Befunde Feature auf Elexis Server</li>
+<li><b>(5078)</b> Verbuchung von ESR Zahlungen</li>
+<li><b>(5079)</b> Add missing sell unit editor to EigenartikelCmposite</li>
+<li><b>(5080)</b> Auswertungen MediX (statistische Daten)</li>
+<li><b>(5084)</b> Omnivore scannt nur erste Seite</li>
+<li><b>(5085)</b> Wrong VatInfo for Eigenartikel</li>
+<li><b>(5087)</b> Liste der aktiven Stationen auf ES anzeigen</li>
+<li><b>(5095)</b> Implementiertung der Schnittstelle zu Online Praxis, als FHIR REST Serive auf El</li>
+<li><b>(5098)</b> Vitodata Importer<i>Proprietär: Exklusiv für Medelexis Kunden</i></li>
+<li><b>(5101)</b> Bidirektionale Synchronisation von Patienten / Kontakten (PIC Elexis_1)</li>
+<li><b>(5103)</b> Anbindung an Rowa Rüstautomat</li>
+<li><b>(5105)</b> Omnivore Treiberauswahl</li>
+<li><b>(5122)</b> Terminserie in Wochenanzeige</li>
+<li><b>(5125)</b> Serientermine löschen</li>
+<li><b>(5142)</b> Nachrichtenplugin (Sprechblase) Antwortfunktion</li>
+<li><b>(5149)</b> NPE at MedicationView</li>
+<li><b>(5151)</b> HL7 Importer Textresultate</li>
+<li><b>(5154)</b> 	Elexis 3.x	Elexis-3-core/base müssen beim Build zeigen, welche public methoden nicht dokume</li>
+<li><b>(5157)</b> Jubula: Mache mehr GUI-Elemente eindeutig identifizierbar</li>
+<li><b>(5160)</b> MediX Auswertungen V2</li>
+<li><b>(5167)</b> Import von Artikelstamm Product löscht führende 00 beim Import</li>
+<li><b>(5181)</b> GDT View und Ergänzungen in den Einstellungen - Icons</li>
+<li><b>(5182)</b> Bög bei ESR Record löschen</li>
+<li><b>(5183)</b> User kann nicht gesperrt werden</li>
+<li><b>(5186)</b> Wiederholtes Neuladen von unveränderten Daten verhindern</li>
+<li><b>(5193)</b> Implement Locking in UserManagementPage</li>
+<li><b>(5209)</b> Fehler bei Labor Import aller Testdateien</li>
+<li><b>(5230)</b> Query erweitern, z.B  qbe.add(StockEntry.FLD_CURRENT, Query.LESS_OR_EQUAL, Stock</li>
+<li><b>(5232)</b> Stk pro Abgabe und Packung für Artikelstamm-Produkte nicht editierbar machen</li>
+<li><b>(5233)</b> Exceptions wenn ExtInfo eines Kontakts nicht initialisiert ist.</li>
+<li><b>(5234)</b> Verbesserung Erkennung von Verordnungen</li>
+<li><b>(5235)</b> Neue Methode auf Docbox, XChange und Epha Interaktion anwenden</li>
+<li><b>(5236)</b> MediX Auswertungen V3</li>
+<li><b>(5238)</b> Bei Symptom oder Reserve Medis die auf Fix umgestellt werden, ist der Grund des</li>
+<li><b>(5242)</b> In der FixmediView kann ein Medi auf Reserve geändert werden woduurch es im Nirv</li>
+<li><b>(5243)</b> Verrechnete Leistungen werden gelöscht, wenn 2 mal die Anzahl geändert wird</li>
+<li><b>(5255)</b> Fehler beim generieren von Dauer seit bzw. bis Text für ein Datum</li>
+<li><b>(5256)</b> UserManagementPreferencePage ignores Standalone Mode</li>
+<li><b>(5260)</b> Zuweisung eines Kontakts in der Benutzerverwaltung muss istAnwender für Kontakt</li>
+<li><b>(5267)</b> Nachrichtenplugin (Sprechblase) als Reminder setzten, Text wird nicht übernommen</li>
+<li><b>(5292)</b> Anzeigen und Warnen wenn  Stationen bzw. Server mit unterschiedlichen Locals lau</li>
+<li><b>(5293)</b> Artikelstamm Mehrfachlager NPE</li>
+<li><b>(5294)</b> View Lagerartikel NPE</li>
+<li><b>(5297)</b> DB Update may fail if BESTELLUNGEN engine&#160;!= innodb</li>
+<li><b>(5298)</b> Wenn Istbestand &gt; Maxbestand keinen Bestelleintrag führen</li>
+<li><b>(5299)</b> Standard-Liefernt für Bestellungen definierbar machen</li>
+<li><b>(5300)</b> Lagerverwaltung Tagesbestellung missing message</li>
+<li><b>(5301)</b> NPE beim selektieren von Medicals / Medikament / MiGeL / Medikamente</li>
+<li><b>(5302)</b> gelöschte Fälle führen zu gelöschten Rechnungen</li>
+<li><b>(5303)</b> Lagerverwaltung Tagesbestellung Inhalt aktualisiert sich nicht</li>
+<li><b>(5305)</b> Lagerbestand Ist, Min, Max vereinheitlichen</li>
+<li><b>(5306)</b> Spalten der Lagerhaltung in Eigenschaften des Artikels nicht veränderbar</li>
+<li><b>(5307)</b> Tabulator-Möglichkeit beim Eingeben von Ist, Min, Max Bestand in Mehrfachlager</li>
+<li><b>(5308)</b> Artikel aus Lager entfernen via Rechtsklick</li>
+<li><b>(5309)</b> Möglichkeit um Lager zu Exportieren</li>
+<li><b>(5311)</b> elektronische Bestellung funktioniert nicht</li>
+<li><b>(5330)</b> Anbindung Rüstautomat Server</li>
+<li><b>(5334)</b> Stations-Identifier includieren bei es_elc listInstances</li>
+<li><b>(5336)</b> Auslagerung von Omnivore Dokumente in FS nimmt nicht alle mit</li>
+<li><b>(5359)</b> MediX Auswertungen V4</li>
+<li><b>(5369)</b> Percentilen verlangsamen Elexis (Ident: DZM018-Büro1OG)</li>
+<li><b>(5376)</b> Erweiterung CovercardPlugin</li>
+<li><b>(5379)</b> HL7 Importer automatisches Einlesen von Laborbefunden</li>
+<li><b>(5399)</b> Migrationsarbeiten Stauffacher</li>
+<li><b>(5409)</b> MedicoSearch Connector V2 Tagesgrenzen ändern wird nicht synchronisiert</li>
+<li><b>(5422)</b> lLabor Verordnungen Anzeige Performance</li>
+<li><b>(5424)</b> eImpfdossier_Durchstich</li>
+<li><b>(5425)</b> eMediplan</li>
+<li><b>(5430)</b> KeepAliveRequest-TimerTask javax.xml.bind.MarshalException: null (WWKS)</li>
+<li><b>(5432)</b> elexis_db_shaker soll sprechenden Kons-Text enthalten</li></ul>
+<p>Damit man Probleme bei Kons-Texten leichter verfolgen kann, wurde der Shaker soweit erweitert, dass jeder Kontext das Datum und den Namen des Patienten als erste Zeile enthält. Damit sieht man leichter, wenn ein Konstext einem falschen Patienten zugeordnet wurde.
+</p>
+<ul><li><b>(5437)</b> Update nicht erfolgreich von 3.2b auf nächste 3.2 Version</li>
+<li><b>(5450)</b> XChange KG Export exportiert Labor nicht</li>
+<li><b>(5472)</b> Anlegen von Laborparametern mit Kürzel und Titel</li>
+<li><b>(5473)</b> Laborparameter mit Referenzwerten ergänzen</li>
+<li><b>(5489)</b> Statusmonitor bei Rechnungsausgabe</li>
+<li><b>(5503)</b> Problem beim Laden der Medikation, 3.1 nur Datum, 3.2 kompletter Timestamp</li>
+<li><b>(5508)</b> Medidata Plugin verwendet altes Ausgabeverzeichnis</li>
+<li><b>(5512)</b> Elexis Login muss case-sensitive sein</li>
+<li><b>(5526)</b> MediX Auswertungen V5</li>
+<li><b>(5532)</b> Elexis 3.x	Doppelklick in Medikationsliste soll Eigenschaften öffnen</li>
+<li><b>(5544)</b> Aktualisierungsbutton bei grafischer Agenda</li>
+<li><b>(5545)</b> BillingItemsContainerService implementieren</li>
+<li><b>(5560)</b> Agenda Termine-View soll Termin öffnen</li>
+<li><b>(5561)</b> Auslesen von Auftragssteller bei Analytica</li>
+<li><b>(5562)</b> View Rechnungsvorschlag</li>
+<li><b>(5564)</b> Auswertungen Tagesleistungen</li>
+<li><b>(5567)</b> ArtikelstamImporter allow Characters in Prodno</li>
+<li><b>(5569)</b> Medidata Status einlesen dauert lange</li>
+<li><b>(5579)</b> Für jede Diagnose wird ein neuer Diagnose-Eintrag erstellt</li>
+<li><b>(5592)</b> Ausbau der FHIR Schnittstelle für die Online Praxis</li>
+<li><b>(5594)</b> Diagnosen-Joint-Tabelle (Mehrfache Diagnosen Einträge)</li>
+<li><b>(5624)</b> Upgrade ES 1.2 auf ES 1.3</li>
+<li><b>(5625)</b> Formatted Output auch in core verfügbar machen</li>
+<li><b>(5627)</b> Italienische Übersetzung von Elexis</li>
+<li><b>(5645)</b> Medikation filtern nach Datum und Performance</li>
+<li><b>(5663)</b> Invalid Object in Fall.getInfo Covercard</li>
+<li><b>(5664)</b> PSQLException: ERROR: operator does not exist: character &lt; integer</li>
+<li><b>(5667)</b> Automatischer Import HL7</li>
+<li><b>(5668)</b> Fehlermeldungen von diversen Plugins beim Schliessen des Snapshots</li>
+<li><b>(5672)</b> Master-Branch kann demoDB nicht öffnen</li>
+<li><b>(5684)</b> Fix multiple sporadic test failures</li>
+<li><b>(5687)</b> Diagnosen flackern - SWT?</li>
+<li><b>(5692)</b> Fehler in Statistik - Reduktionspositionen werden mit 0.00 ausgewiesen</li>
+<li><b>(5700)</b> Laborwert lässt sich nicht editieren</li>
+<li><b>(5701)</b> Automatischer HL7 Import ABX Micros</li>
+<li><b>(5707)</b> Bei Standalone Modus soll LockingSymbol (rechts unten) gar nicht angezeigt werde</li>
+<li><b>(5719)</b> Patient anlegen benötigt fast 2 Minuten</li>
+<li><b>(5720)</b> Index out of bounds initial PatientenListe filtern</li>
+<li><b>(5725)</b> NoSuchMethodException: ch.elexis.data.Patient.getMaritalStatus()</li>
+<li><b>(5732)</b> BillingSession müssen geschlossen werden</li>
+<li><b>(5741)</b> DB-Update für Postgres von 3.1.0 auf 3.2.0 läuft nicht</li>
+<li><b>(5744)</b> Elexis-Opensource kann Implan F. Marty nicht installieren. org.apache.commons.lo</li>
+<li><b>(5745)</b> Verordnungen: Eingabe/ Wert wird bei der vorherigen Verordnung gespeichert</li>
+<li><b>(5753)</b> Realisation Durchstich ES  FM 003.043/2017</li>
+<li><b>(5756)</b> Medidata rejected Text übernahmen in MediDataStatus (4.4 format)</li>
+<li><b>(5783)</b> Labor wird bei automatischem Einlesen nicht immer korrekt verrechnet</li>
+<li><b>(5790)</b> Neuen Kontakt erfassen verliert die Checkbox "Person"</li>
+<li><b>(5791)</b> Migration von HAPI FHIR Verison 2.0 auf die STU3 Release</li>
+<li><b>(5808)</b> Medix Auswertung Faktura Journal Performance</li>
+<li><b>(5815)</b> Agenda Überarbeitung UI</li>
+<li><b>(5818)</b> FHIR Laborwerte Gruppierung</li>
+<li><b>(5819)</b> Support für mehrfache Adressen pro Kontakt</li>
+<li><b>(5832)</b> eMediplan einlesen</li>
+<li><b>(5841)</b> Pantophage UI (Dokumente Management)</li>
+<li><b>(5858)</b> Fehlermeldung "Pat. Null" eben vorgekommen, afr</li>
+<li><b>(5861)</b> Wert der Spalte "total"  auf der Rechnungsvorschlag-View stimmt nicht</li>
+<li><b>(5867)</b> Emergency-Flag für Termin hinzufügen</li>
+<li><b>(5872)</b> Telnr 555-555 55 55 bei TarmedXML</li>
+<li><b>(5874)</b> ESR Dateien einlesen prüfen</li>
+<li><b>(5878)</b> LockResponse#getLockInfos is null</li>
+<li><b>(5880)</b> Terminkontext setzen Agenda Web</li>
+<li><b>(5884)</b> Serientermine auf neuer Agenda</li>
+<li><b>(5886)</b> Bei der Agenda gross View wird noch die falsche Zeit dargestellt</li>
+<li><b>(5888)</b> Fehler bei DBUpdate von 3.2.3 auf Postgres</li>
+<li><b>(5898)</b> Einpflegen von Tarif 590</li>
+<li><b>(5899)</b> Einbuchen von Bestellung aktualisiert nicht Lagerbestand bei RH</li>
+<li><b>(5900)</b> LockService#acquireLockBlocking be more responsive</li>
+<li><b>(5901)</b> Groupe Mutuel Object cannot be cast to</li>
+<li><b>(5902)</b> Kopie Drag&amp;Drop von Terminen in der neuen Agenda</li>
+<li><b>(5903)</b> MEDIX Artikelstamm-Update verlorene Medis</li>
+<li><b>(5904)</b> Aufräumen nicht definierter/resp. nicht mehr gebrauchter Messages</li>
+<li><b>(5907)</b> Beim Initial-Erstellen eines Termins mit Notfall Flag geht dieses verloren</li>
+<li><b>(5910)</b> Product update does not increase cummulated version</li>
+<li><b>(5915)</b> Empty String bei Änderung in der Fixmedikationsliste</li>
+<li><b>(5923)</b> Exceptions auf Patientenblatt2 wenn Patient gewechselt wird</li>
+<li><b>(5952)</b> Aktualisierungen auf diversen Views funktioniert nicht</li>
+<li><b>(5954)</b> Blöcke können nicht verrechnet werden</li>
+<li><b>(5962)</b> Guten Tag! Leider ist uns bei der Patientenaufnahme ein kleiner Fehler unterlauf</li>
+<li><b>(5966)</b> Upgrade sbu auf 3.2.0: Probleme beim Migrating stock information for</li>
+<li><b>(5967)</b> AcquireLock in neuer Dokumente View</li>
+<li><b>(5968)</b> Feedback zu der neuen Dokumente View</li>
+<li><b>(5981)</b> Rechnungsdetail View - Leeren bei Patientenwechsel (Punkt 6)</li>
+<li><b>(5983)</b> Rechnungsliste - Verbesserte Übersicht (Punkt 13)</li>
+<li><b>(5984)</b> Neue View Rechnungskorrekturen sowie Kontextmenü (Punkt 14 und 15) (Spezifikatio</li>
+<li><b>(5989)</b> unabhängige Journalaufbereitung (Punkt 2)</li>
+<li><b>(5990)</b> Rückzahlungen abbuchen (Punkt 4)</li>
+<li><b>(5992)</b> Mahngebühren (Punkt 9)</li>
+<li><b>(5999)</b> Pantophage View temporär deaktivieren -&gt; später reaktivieren</li>
+<li><b>(6028)</b> Labor Patient NullPointerException</li>
+<li><b>(6048)</b> Update Fehler (gesehen mit Beta 3.2.0.28 und 3.1.1-prerelease: TrustedInfo o</li>
+<li><b>(6064)</b> Lokales Editieren Dialog</li>
+<li><b>(6067)</b> Tarmed 44 Vorlagen - Abfrage Platzhalter KVG/UVG</li>
+<li><b>(6068)</b> Lokales editieren von bestimmten Dateitypen funktioniert noch nicht richtig</li>
+<li><b>(6084)</b> User support für ApiKey</li>
+<li><b>(6100)</b> UVG Fall-Eröffnung (Nachtrag Julian)</li>
+<li><b>(6101)</b> Mehrere Packungen pro Produkt (Nachtrag Julian)</li>
+<li><b>(6102)</b> BlueEvidence Synchronisation (Nachtrag Julian)</li>
+<li><b>(6116)</b> InvoiceListView auf Postgres und H2 portieren</li>
+<li><b>(6129)</b> Error reading build version information from</li>
+<li><b>(6131)</b> XDM_Outbox_inbox</li>
+<li><b>(6141)</b> JSON Serializer support für Elexis JAX-RS</li>
+<li><b>(6142)</b> DBConnection klassen zusammenführen</li>
+<li><b>(6143)</b> Branch 3.2 - Entwicklungsstream master auf 3.3</li>
+<li><b>(6147)</b> Drucker nicht erreichbar, elexis kann nicht drucken</li>
+<li><b>(6155)</b> lokales öffnen von Dateien darf keine Sonderzeichen im Namen haben</li>
+<li><b>(6156)</b> Eintrag notfall Spalte wechselt zu JUL</li>
+<li><b>(6163)</b> (!!!) Patientendetailblatt überschreibt DB Werte bei Patientenwechsel</li>
+<li><b>(6164)</b> Patientendetailblatt multiple lock ignores</li>
+<li><b>(6167)</b> NPE at KonsDetailView.updateFallCombo</li>
+<li><b>(6169)</b> Nachtrag Punkt 4 - Rechnungsbetrag abbuchbar</li>
+<li><b>(6171)</b> NPE bei neuer Rechnungsliste</li>
+<li><b>(622)</b> Multiple Lager - Initialimplementation</li>
+<li><b>(6228)</b> eMediplan ausgabe noch nicht korrekt</li>
+<li><b>(6331)</b> Konsultation Zeitangabe anpassen</li>
+<li><b>(6482)</b> Patientendetailblatt speichert Werte nicht mehr in der DB bei Patientenwechsel</li>
+<li><b>(6490)</b> Import von eMediplan in die Medikationsliste</li>
+<li><b>(6511)</b> Agenda Gross - Sprung des Fensters verdeckt Einträge</li>
+<li><b>(6556)</b> Medidata Response Statustext wurde nicht korrekt eingelesen</li>
+<li><b>(6568)</b> xChange Exporter soll Export fortsetzen</li>
+<li><b>(6569)</b> Omnivore could not create the View</li>
+<li><b>(6580)</b> Elexis friert ein, Acutal Delay = 189966</li>
+<li><b>(6593)</b> Überarbeitung Agenda Gross Layout</li>
+<li><b>(6594)</b> Erweiterung docbox Schnittstelle</li>
+<li><b>(6609)</b> Artikelstamm-Satz aus e-mediat daten erzeugen</li>
+<li><b>(6615)</b> Manueller Aufruf von Commands nicht möglich</li>
+<li><b>(6618)</b> Mandanten Auswahl und Updatesite Anzeige im Menubar werden nicht korrekt angezei</li>
+<li><b>(6628)</b> Programmatische Anpassung p2 update site gegen branches</li>
+<li><b>(6645)</b> DO not uninstall required features</li>
+<li><b>(6655)</b> Medikationsliste - Aktualisierungs- &amp; Eventproblem</li>
+<li><b>(6657)</b> Problem bei Snapshot Update mit neuem Target</li>
+<li><b>(6658)</b> DecorationOverlayIcons do not work anymore</li>
+<li><b>(6661)</b> Medikationsliste - Anwenderlabel</li>
+<li><b>(6665)</b> NPE bei User-Login bei ungültigem User-Contact</li>
+<li><b>(6666)</b> Startup Problem aufgrund von verschobener DBConnection Klasse</li>
+<li><b>(6670)</b> Elexis 3.3.0 started beim 2ten Start nicht mehr hoch ohne -clearPersistedState</li>
+<li><b>(6674)</b> curabill javax.inject dependency resolution problem mit jersey_min</li>
+<li><b>(6676)</b> Bezugskontakte-Anzeige in Elexis</li>
+<li><b>(6683)</b> FastView - Kein Support für E4</li>
+<li><b>(6693)</b> fastView auf Re-Klick nicht vorhanden</li>
+<li><b>(6694)</b> Medikationsliste Anpassungen für 3.3</li>
+<li><b>(6696)</b> Anpassungen nach 1stem Feedback</li>
+<li><b>(6708)</b> Anpassungen ArtikelstammView</li>
+<li><b>(6709)</b> ArtikelstammImporter für 3.3 (Artikelstamm v5)</li>
+<li><b>(6716)</b> Logging funktioniert nicht korrekt (Ident: not set)</li>
+<li><b>(6717)</b> NPE bei Wechsel auf Rechnungsliste Beta RechnungsBlatt.java:356</li>
+<li><b>(6728)</b> Stickermodifikation muss locken</li>
+<li><b>(6733)</b> LocalLockService verschiedene Arten von locks - Task 1</li>
+<li><b>(6735)</b> Hauptadresse für Zusatzadressen deaktivieren</li>
+<li><b>(6743)</b> Automatische Verrechnung der Technischen Grundleistung bei Ultraschall</li>
+<li><b>(6744)</b> Benutzerverwaltung Darstellungsproblem</li>
+<li><b>(6748)</b> Perspektive kann nicht gespeichert werden</li>
+<li><b>(6751)</b> NPE beim Erstellen von neuem Röntgen-Eintrag in Perspektive Befunde</li>
+<li><b>(6786)</b> Ansicht für Makros</li>
+<li><b>(6793)</b> Unterstützung Picklisten Synchronisation</li>
+<li><b>(6797)</b> Fehler beim Abfragen einer Konsultation / Encounter aus Elexis</li>
+<li><b>(6808)</b> Perspektive ICPC2: Views können nicht geöffnet werden</li>
+<li><b>(6809)</b> Perspektive Perzentilen: Perspektive nicht komplett, Views können nicht geöffnet</li>
+<li><b>(6815)</b> Platzhalter für die strukturierten (findings) Felder des Patientendetail erstell</li>
+<li><b>(6819)</b> Dokumente view wechsel Patient nicht</li>
+<li><b>(6820)</b> Artikel-Verrechnungs-View soll Produkte filtern</li>
+<li><b>(6831)</b> Patientenwechsel - Deadlock in Hilotec KG Perspektive</li>
+<li><b>(6836)</b> ElexisRendererFactory  - Platform deprecated message</li>
+<li><b>(6843)</b> Curabill - unable to find valid certification path to requested target</li>
+<li><b>(6847)</b> Finalisierung der meineimpfungen Anbindung</li>
+<li><b>(6849)</b> Langzeit-Blutdruckgerät WatchBPO mediX Schwamendingen</li>
+<li><b>(6851)</b> Failed to create the part's controls</li>
+<li><b>(6854)</b> master build schlägt fehl wegen "gnu cannot be resolved"</li>
+<li><b>(6858)</b> P2-Info für Elexis-3-Core 3.3/masterBranch ist falsch</li>
+<li><b>(6859)</b> Agenda neu kleine Anpassungen</li>
+<li><b>(6885)</b> Data truncation: Data too long for column 'NatelNr' at row 1</li>
+<li><b>(70)</b> org.eclipse.swt.SWTException: Widget is disposed</li>
+<li><b>(7701)</b> RDUS references wrong mis custom field</li>
+<li><b>(7702)</b> oddb2xml basierten Artikelstamm_v5 import überprüfen</li>
+<li><b>(7725)</b> Double entry on ArtikelstammImporter, missing BlackBoxReason</li>
+<li><b>(7822)</b> Elexis Coolbar</li>
+<li><b>(7833)</b> Überarbeitung Konfiguration und Handling Logging</li>
+<li><b>(8562)</b> Fall-Konstante löschen popup menü nicht verfügbar</li>
+<li><b>(8567)</b> Stauffacher Wartezeit bei Acquiring Lock von Pendenzen</li>
+<li><b>(8571)</b> Elexis 3.3 Opensource. Einlog-Dialog versteckt</li>
+<li><b>(8575)</b> elexis-3-core und elexis-3-base auf Travis-CI builden</li>
+<li><b>(8584)</b> NPE bei Laborimport</li>
+<li><b>(8603)</b> Suche nach Rechnungsnummer/Patient in Rechnungsliste  langsamer als in rechn</li>
+<li><b>(8604)</b> Rechnungskorrektur: Ungültige Mandantenauswahl vermeiden</li>
+<li><b>(8629)</b> Überarbeitung Pendenzen</li>
+<li><b>(8631)</b> Rechnungskorrekturview: Kons bei Selektion auswählen</li>
+<li><b>(8636)</b> NPE beim Artikelstammimporter MedIndex</li>
+<li><b>(8650)</b> NPE beim ersten Einlesen eines Artikelstamms-v5</li>
+<li><b>(8652)</b> Postgres Fehler bei: UPDATE ARTIKELSTAMM_CH SET BB=9 WHERE BB=0 (SQLState: 42883</li>
+<li><b>(8663)</b> Neue Rechnungsliste</li>
+<li><b>(8669)</b> Open-Source Elexis lässt sich nicht korrekt updaten</li>
+<li><b>(8675)</b> Add git revision information to installed features</li>
+<li><b>(8684)</b> Onvalid Thread Access bei Anwenderwechsel (Ident: Regli - Sprechzimmer)</li>
+<li><b>(8686)</b> Test Elexis ehc Kommunikation mit der EPD-RU Integrationsumgebung</li>
+<li><b>(8688)</b> Data truncation: Data too long for column 'AUFZusatz' at row 1</li>
+<li><b>(8706)</b> Neues Befunde Feature Implementierung - Nach Feedback mit JUL</li>
+<li><b>(8711)</b> Validierung der Rechnung bei Rechnungskorrektur Fall-Änderung</li>
+<li><b>(8714)</b> Verbesserungen zur  Rechnungskorrektur</li>
+<li><b>(8727)</b> Postgres Fehler bei Rechnungsliste</li>
+<li><b>(8735)</b> Medelexis Update von 3.1 auf 3.4</li>
+<li><b>(8738)</b> Rechnungskorrektur  locking inaktiv</li>
+<li><b>(8768)</b> master branch of Elexis-OpenSource hat Probleme beim Installieren von Plugins au</li>
+<li><b>(8786)</b> Sticker werden einzeln nicht gelocked</li>
+<li><b>(8790)</b> Übernahme der bestehenden Befunde ins Befunde neu</li>
+<li><b>(8792)</b> View ESR - Sortierung nach RN-Nummer (#99)</li>
+<li><b>(8804)</b> mediX Statistische Daten Erweiterung</li>
+<li><b>(8806)</b> FälleView wird nach dem 2. Start nicht korrekt geladen</li>
+<li><b>(8837)</b> Menu: Hilfe/Handbuch sollte nach wiki.elexis.info zeigen</li>
+<li><b>(8865)</b> Launch-Konfigurationen in der Eclipse-IDE sind unbrauchbar</li>
+<li><b>(8866)</b> Elexis Theme Überarbeitung</li>
+<li><b>(8872)</b> Anpassung findings plugins des server</li>
+<li><b>(8881)</b> Falsches Icon in Elexis</li>
+<li><b>(8884)</b> Planung und Implementierung einer Medelexis Perspektivenmanagement</li>
+<li><b>(8916)</b> Build elexis-3-core, et al under windows, macOSx and linux</li>
+<li><b>(8920)</b> Deadlock durch ElexisEventDispatcher#listeners</li>
+<li><b>(8939)</b> NPE bei Auswertung mit noch nicht abgerechneten Konsultationen</li>
+<li><b>(8945)</b> Artikelstamm November 2017</li>
+<li><b>(9052)</b> de.fhdo Perspektiven löschen in 3.4.</li></ul>
+
+<!-- 
+NewPP limit report
+Cached time: 20240226113750
+Cache expiry: 86400
+Dynamic content: false
+CPU time usage: 0.023 seconds
+Real time usage: 0.022 seconds
+Preprocessor visited node count: 46/1000000
+Preprocessor generated node count: 52/1000000
+Post‐expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+Unstrip recursion depth: 0/20
+Unstrip post‐expand size: 0/5000000 bytes
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 -total
+-->
+
+<!-- Saved in parser cache with key elexis_wiki:pcache:idhash:20606-0!userlang=en and timestamp 20240226113750 and revision id 58530
+ -->
+</div></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="index2934.html?title=Release-Notes-3.4.0&amp;oldid=58530">https://wiki.elexis.info/index.php?title=Release-Notes-3.4.0&amp;oldid=58530</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul lang="en" dir="ltr">
+							<li id="pt-login"><a href="indexe2fc.html?title=Spezial:Anmelden&amp;returnto=Release-Notes-3.4.0" title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul lang="en" dir="ltr">
+							<li id="ca-nstab-main" class="selected"><span><a href="Release-Notes-3.4.html" title="View the content page [c]" accesskey="c">Page</a></span></li><li id="ca-talk" class="new"><span><a href="Diskussion_Release-Notes-3.4.html?title=Diskussion:Release-Notes-3.4.0&amp;action=edit&amp;redlink=1" rel="discussion" title="Discussion about the content page (page does not exist) [t]" accesskey="t">Discussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Variants</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul lang="en" dir="ltr">
+							<li id="ca-view" class="collapsible selected"><span><a href="Release-Notes-3.4.html">Read</a></span></li><li id="ca-viewsource" class="collapsible"><span><a href="index1b25.html?title=Release-Notes-3.4.0&amp;action=edit" title="This page is protected.&#10;You can view its source [e]" accesskey="e">View source</a></span></li><li id="ca-history" class="collapsible"><span><a href="index727e.html?title=Release-Notes-3.4.0&amp;action=history" title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>More</span></h3>
+						<div class="menu">
+							<ul lang="en" dir="ltr">
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3 lang="en" dir="ltr">
+							<label for="searchInput">Search</label>
+						</h3>
+						<form action="https://wiki.elexis.info/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Search Elexis-Wiki" title="Search Elexis-Wiki [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Spezial:Suche" name="title"/><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="Hauptseite.html"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 lang="en" dir="ltr" id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-description"><a href="Hauptseite.html" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-Elexis-3.0"><a href="Installation_Elexis_3-2.html">Elexis 3.0</a></li><li id="n-Matrix-3.0"><a href="Matrix_3.html">Matrix 3.0</a></li><li id="n-recentchanges"><a href="Spezial_Letzte_%c3%84nderungen.html" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-randompage"><a href="Ch.elexis.laborimport.synlab.html" title="Load a random page [x]" accesskey="x">Random page</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 lang="en" dir="ltr" id="p-tb-label">Tools</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="Spezial_Linkliste/Release-Notes-3.4.html" title="A list of all wiki pages that link here [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="Spezial_%c3%84nderungen_an_verlinkten_Seiten/Release-Notes-3.4.html" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-specialpages"><a href="Spezial_Spezialseiten.html" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-print"><a href="index8fd2.html?title=Release-Notes-3.4.0&amp;printable=yes" rel="alternate" title="Printable version of this page [p]" accesskey="p">Printable version</a></li><li id="t-permalink"><a href="index2934.html?title=Release-Notes-3.4.0&amp;oldid=58530" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="index550b.html?title=Release-Notes-3.4.0&amp;action=info" title="More information about this page">Page information</a></li>				</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo" lang="en" dir="ltr">
+						<ul id="footer-info">
+								<li id="footer-info-lastmod"> This page was last edited on 27 June 2018, at 10:07.</li>
+							</ul>
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="Elexis-Wiki_Datenschutz.html" title="Elexis-Wiki:Datenschutz">Privacy policy</a></li>
+								<li id="footer-places-about"><a href="Elexis-Wiki_%c3%9cber_Elexis-Wiki.html" title="Elexis-Wiki:Über Elexis-Wiki">About Elexis-Wiki</a></li>
+								<li id="footer-places-disclaimer"><a href="Elexis-Wiki_Impressum.html" title="Elexis-Wiki:Impressum">Disclaimers</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-poweredbyico">
+						<a href="http://www.mediawiki.org/"><img src="resources/assets/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/resources/assets/poweredby_mediawiki_132x47.png 1.5x, /resources/assets/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.023","walltime":"0.022","ppvisitednodes":{"value":46,"limit":1000000},"ppgeneratednodes":{"value":52,"limit":1000000},"postexpandincludesize":{"value":0,"limit":2097152},"templateargumentsize":{"value":0,"limit":2097152},"expansiondepth":{"value":2,"limit":40},"expensivefunctioncount":{"value":0,"limit":100},"unstrip-depth":{"value":0,"limit":20},"unstrip-size":{"value":0,"limit":5000000},"timingprofile":["100.00%    0.000      1 -total"]},"cachereport":{"timestamp":"20240226113750","ttl":86400,"transientcontent":false}}});mw.config.set({"wgBackendResponseTime":58});});</script>
+	</body>
+
+<!-- Mirrored from wiki.elexis.info/Release-Notes-3.4.0 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 26 Feb 2024 11:50:00 GMT -->
+</html>
